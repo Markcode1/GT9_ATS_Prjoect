@@ -18,10 +18,10 @@
         .container {
             display: flex;
         }
-        .sidebar {
+          .sidebar {
             width: 250px;
-            background: #4ed94a;
-            color: white;
+            background:#346938;
+            color: rgb(214, 203, 203);
             height: 100vh;
             padding: 20px;
             position: fixed;
@@ -55,7 +55,7 @@
             margin: 10px;
         }
         .top-bar {
-            background-color: #4ed94a;
+           background-color: #4b8f50;
             padding: 15px;
             color: white;
             font-size: 24px;
@@ -184,11 +184,11 @@
         });
         new Chart(document.getElementById("barChart"), {
             type: "bar",
-            data: { labels: ["Jan", "Feb", "Mar", "Apr", "May"], datasets: [{ label: "Fines Collected", data: [200, 450, 300, 500, 600], backgroundColor: "#4ed94a" }] }
+            data: { labels: ["Jan", "Feb", "Mar", "Apr", "May"], datasets: [{ label: "Fines Collected", data: [200, 450, 300, 500, 600], backgroundColor: "#4b8f60" }] }
         });
         new Chart(document.getElementById("pieChart"), {
             type: "pie",
-            data: { labels: ["Paid", "Pending", "Disputed"], datasets: [{ data: [60, 25, 15], backgroundColor: ["#4ed94a", "#f4c242", "#e74c3c"] }] }
+            data: { labels: ["Paid", "Pending", "Disputed"], datasets: [{ data: [60, 25, 15], backgroundColor: ["#4b8f60", "#f4c242", "#e74c3c"] }] }
         });
     </script>
 </body>
